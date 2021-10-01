@@ -13,7 +13,7 @@ git clone https://github.com/edurib17/ecommerce-js-challenge.git
 ```
 #### 2. Atualize as dependencias 
 ```
-cd ecommerce-js
+cd ecommerce-js-challenge 
 npm install
 ```
 #### 3. Start JSON Server
