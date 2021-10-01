@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #33bfcb;
+  padding: 16px 128px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+.logo-icon {
+  height: 32px;
+}
+
+.logo-text {
+  margin-left: 8px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-cart {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: opacity 0.5s;
+}
+
+.header-cart div {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.header-cart div > strong {
+  display: block;
+  color: #b6edf2;
+}
+
+.header-cart div span {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-cart div span strong {
+  font-size: 12px;
+  color: #fff;
+}
+
+@media (max-width: 434px) {
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  .header-cart div span strong {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 361px) {
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 350px;
+  }
+  .header-cart div span strong {
+    margin-left: 100px;
+  }
+  .header-cart div span {
+    font-size: 16px;
+  }
+  .logo-text {
+    margin-left: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}

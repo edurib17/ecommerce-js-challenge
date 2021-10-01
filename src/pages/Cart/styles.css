@@ -1,0 +1,125 @@
+.cart-container {
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.cart-container footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-container footer button {
+  background: transparent;
+  color: #33bfcb;
+  border: 2px solid #33bfcb;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-weight: bold;
+  transition: background 0.5s, color 0.5s;
+}
+
+.cart-container footer button:hover {
+  color: #fff;
+  background: #33bfcb;
+}
+
+.game-table {
+  width: 100%;
+}
+
+.game-table thead th {
+  color: #878c99;
+  text-align: left;
+  padding: 12px;
+}
+
+.game-table tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.game-table img {
+  height: 100px;
+}
+
+.game-table strong {
+  color: #333;
+  display: block;
+}
+
+.game-table span {
+  display: block;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.game-table div {
+  display: flex;
+  align-items: center;
+}
+
+.game-table div input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #878c99;
+  padding: 6px;
+  width: 50px;
+}
+
+.game-table button {
+  background: none;
+  border: 0;
+  padding: 6px;
+}
+
+.total {
+  display: flex;
+  align-items: baseline;
+}
+
+.total span {
+  color: #878c99;
+  font-weight: bold;
+}
+
+.total h5 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+@media (max-width: 434px) {
+  .cart-container footer button {
+    width: 110px;
+    font-size: 11px;
+    display: inline-block;
+  }
+  .total {
+    display: inline-block;
+  }
+  .total span {
+    font-size: 15px;
+  }
+  .total h5 {
+    font-size: 15px;
+  }
+  .game-table {
+    display: inline-block;
+    overflow-x: scroll;
+    width: 300px;
+  }
+  .game-table strong {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cart-container {
+    width: 300px;
+    font-size: 11px;
+    display: inline-block;
+  }
+}

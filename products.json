@@ -1,0 +1,67 @@
+{
+"games":[
+  {
+    "id": 312,
+    "name": "Super Mario Odyssey",
+    "price": 197.88,
+    "score": 100,
+    "image": "https://upload.wikimedia.org/wikipedia/pt/9/99/Super_Mario_Odyssey_Capa.png"
+  },
+  {
+    "id": 201,
+    "name": "Call Of Duty Infinite Warfare",
+    "price": 49.99,
+    "score": 80,
+    "image": "http://lojasaraiva.vteximg.com.br/arquivos/ids/4140313/1003459072.jpg?v=637050351360870000"
+  },
+  {
+    "id": 102,
+    "name": "The Witcher III Wild Hunt",
+    "price": 119.5,
+    "score": 250,
+    "image":  "https://cdn.awsli.com.br/600x450/1190/1190229/produto/6962560808ebaa3ec0.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Call Of Duty WWII",
+    "price": 249.99,
+    "score": 205,
+    "image": "https://cdn.awsli.com.br/600x700/1095/1095205/produto/40538480/e887fb1a86.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mortal Kombat XL",
+    "price": 69.99,
+    "score": 150,
+    "image": "https://rodasdadiversao.files.wordpress.com/2013/12/mortal-kombat-x-cover.jpg?w=443"
+  },
+  {
+    "id": 74,
+    "name": "Shards of Darkness",
+    "price": 71.94,
+    "score": 400,
+    "image": "https://www.bhgames.com.br/imagem/index/16095101/G/jogo_styx_shard_of_darkness_xbox_one_focus_photo161983320_12_d_14.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Terra Média: Sombras de Mordor",
+    "price": 79.99,
+    "score": 50,
+    "image":"https://images-na.ssl-images-amazon.com/images/I/91gPp8gUvWL._AC_SX342_.jpg"
+  },
+  {
+    "id": 420,
+    "name": "FIFA 18",
+    "price": 195.39,
+    "score": 325,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/816-STm%2BeyL._AC_SX385_.jpg"
+  },
+  {
+    "id": 501,
+    "name": "Horizon Zero Dawn",
+    "price": 115.8,
+    "score": 290,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71XYPOXjcjL._AC_SX425_.jpg"
+  }
+]
+}
